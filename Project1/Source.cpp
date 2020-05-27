@@ -7,7 +7,7 @@ using namespace std;
 int main()
 {
 
-	Worker w1("Vlad", 2016, 2500, ADMIN);
+	/*Worker w1("Vlad", 2016, 2500, ADMIN);
 	Worker w2("Vas9", 2010, 4000, PROGRAMMER);
 	Worker w3("San9", 2019, 500, DESIGNER);
 
@@ -26,7 +26,15 @@ int main()
 	flex.PrintByType(PROGRAMMER);
 	cout << endl<<endl;
 	Department Air(flex);
-	Air.ShowWorkers();
+	Air.ShowWorkers();*/
+
+
+	Worker w3("San9", 2019, -5, DESIGNER);
+
+	w3.PrintShortInfo();
+
+	Department flex;
+	flex.AddWorker(w3);
 	system("pause");
 	return 0;
 }

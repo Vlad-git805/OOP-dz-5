@@ -24,6 +24,13 @@ Worker::Worker(const char * name, const int startYear, const double salary, cons
 		this->salary = salary;
 		this->type = type;
 	}
+	else
+	{
+		strcpy_s(this->name, "No name");
+		this->startYear = 0;
+		this->salary = 0;
+		this->type = NONE;
+	}
 }
 
 void Worker::SetName(const char * name)
