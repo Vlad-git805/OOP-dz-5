@@ -97,7 +97,7 @@ void Department::PrintByExperience(const int exp)
 			int workExp = 2020 - workers[i].GetStartYear();
 			if (workExp > exp)
 			{
-				workers[i].PrintShortInfo();
+				workers[i].PrintFullInfo();
 			}
 		}
 	}

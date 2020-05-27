@@ -7,11 +7,9 @@ using namespace std;
 int main()
 {
 
-	/*Worker w1("Vlad", 2016, 2500, ADMIN);
-	Worker w2("Vas9", 2010, 4000, PROGRAMMER);
-	Worker w3("San9", 2019, 500, DESIGNER);
-
-	w1.PrintShortInfo();
+	Worker w1("Vlad", 2016, 2500, ADMIN);
+	Worker w2("Vas9", 2009, 4000, PROGRAMMER);
+	Worker w3("San9", 50, 500, DESIGNER);
 
 	Department flex;
 	flex.AddWorker(w1);
@@ -21,7 +19,9 @@ int main()
 	cout << endl;
 	cout << flex.GetAverageSalaty();
 	cout << endl << endl;
-	flex.PrintByName("Vlad");
+	cout << endl;
+	flex.PrintByExperience(10);
+	/*flex.PrintByName("Vlad");
 	cout << endl;
 	flex.PrintByType(PROGRAMMER);
 	cout << endl<<endl;
@@ -29,12 +29,12 @@ int main()
 	Air.ShowWorkers();*/
 
 
-	Worker w3("San9", 2019, -5, DESIGNER);
+	/*Worker w3("San9", 2019, -5, DESIGNER);
 
 	w3.PrintShortInfo();
 
 	Department flex;
-	flex.AddWorker(w3);
+	flex.AddWorker(w3);*/
 	system("pause");
 	return 0;
 }
